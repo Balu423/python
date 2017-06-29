@@ -2,11 +2,6 @@
 
 __author__ = ['[Brandon Amos](http://bamos.github.io)']
 __date__ = '2015.12.30'
-
-"""
-This script (fix-music-tags.py) mass-removes unwanted music tags.
-"""
-
 from mutagen.easyid3 import EasyID3
 import argparse
 import glob

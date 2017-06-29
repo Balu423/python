@@ -16,7 +16,7 @@ install:
 
 # Ensure `requirements.txt` contains all of the dependencies
 # for the scripts and that scripts that only operate on
-# command-line arguments can be executed.
+# command-line arguments can be execute
 script:
   - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then ./.travis-script-2.sh; fi
   - if [[ $TRAVIS_PYTHON_VERSION == 3* ]]; then ./.travis-script-3.sh; fi
